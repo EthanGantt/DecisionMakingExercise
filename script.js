@@ -17,13 +17,9 @@ if (randomNum != 3){
     console.log("Not equal to 3");
 }
 
-if (randomNum === 1){
+if (randomNum != 3 || randomNum != 5){
     console.log("NOT equal to 3 AND not equal to 5" );
-} else if (randomNum != 3 || randomNum != 5){
-    console.log("NOT equal to 3 AND not equal to 5" );
-} //else if (randomNum === 4){
-//     console.log("NOT equal to 3 AND not equal to 5" );
-// }
+} 
 
 if (randomNum === 2 || randomNum === 4){
     console.log("Equal to 2 OR equal to 4");
