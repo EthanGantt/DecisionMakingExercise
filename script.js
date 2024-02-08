@@ -17,7 +17,7 @@ if (randomNum != 3){
     console.log("Not equal to 3");
 }
 
-if (randomNum != 3 || randomNum != 5){
+if (randomNum != 3 && randomNum != 5){
     console.log("NOT equal to 3 AND not equal to 5" );
 } 
 
